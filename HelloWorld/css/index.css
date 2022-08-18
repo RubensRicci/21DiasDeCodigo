@@ -1,4 +1,4 @@
-@import url(/HelloWorld/fonts.css);
+@import url(/fonts.css);
 
 body {
     text-align: center;
@@ -7,7 +7,6 @@ body {
 }
 h1 {
     font-size: 100px;
-    
     font-family: 'Marmelad', sans-serif;
 }
 .slide {
