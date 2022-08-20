@@ -1,0 +1,63 @@
+body{
+    margin-top: 200px;
+    align-items: center;
+    
+}
+.switch{
+    position: relative;
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    border-radius: 50px;
+    background: rgb(101,71,175);
+    background: linear-gradient(15deg, rgba(101,71,175,1) 0%, rgba(169,101,236,1) 100%);
+    border-bottom: 0.5px solid rgb(80, 56, 139);
+    border-right: 0.5px solid rgb(80, 56, 139);
+    box-shadow: 1px 1px 0px rgba(101,71,175,1);
+}
+.switch input{
+    width: 0;
+    height: 0;
+    opacity: 0;
+    margin: 0;
+}
+.canaleta{
+    position: relative;
+    top: 6.25px;
+    left: 9px;
+    width: 80px;
+    height: 36px;
+    border-radius: 50px;
+    background-color: rgba(0,0,0,0.4);
+    border: 1px solid rgb(80, 56, 139);
+}
+.slider{
+    position: absolute;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+.slider::before{
+    position: absolute;
+    content: "";
+    width: 30px;
+    height: 30px;
+    top: 2.25px;
+    left: 2px;
+    border-radius: 50%;
+    border-bottom: 0.5px solid #555;
+    border-right: 0.5px solid #555;
+    background: linear-gradient(15deg, rgb(100, 100, 100) 0%, rgb(155, 155, 155) 100%);
+    filter: drop-shadow(1px 1px 0px rgba(100,100,100,1));
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+input:checked + .slider:before {
+    -webkit-transform: translateX(44px);
+    -ms-transform: translateX(44px);
+    transform: translateX(44px);
+    border-bottom: 0.5px solid rgb(35, 151, 101);
+    border-right: 0.5px solid rgb(35, 151, 101);
+    background: rgb(46,200,134);
+    background: linear-gradient(15deg, rgba(46,200,134,1) 0%, rgba(11,250,191,1) 100%);
+    filter: drop-shadow(1px 1px 0px rgb(46,200,134));
+}

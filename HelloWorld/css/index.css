@@ -1,48 +1,49 @@
 @import url(/fonts.css);
 
 body {
-    text-align: center;
-    align-items: center;
-    background-color: #21315A;
+  text-align: center;
+  align-items: center;
+  background-color: #21315A;
 }
 h1 {
-    font-size: 100px;
-    font-family: 'Marmelad', sans-serif;
+  font-size: 100px;
+  font-family: 'Marmelad', sans-serif;
 }
 .slide {
-    position: relative;
-    overflow: hidden;
-    width: 1000px;
-    height: 500px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 10% auto 0 auto;
-    background-repeat: none;
-    background-position: center top 0;
-    animation: fundo ease 1.0s forwards 1.6s;
+  position: relative;
+  overflow: hidden;
+  width: 800px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10% auto 0 auto;
+  background-repeat: none;
+  background-position: center top 0;
+  background-size: 800px 600px;
+  animation: fundo ease 1.0s forwards 1.6s;
 }
 .hello, .world{
-    position: relative;
-    opacity: 0;
-    margin: 20px;
+  position: relative;
+  opacity: 0;
+  margin: 20px;
 }
 
 .hello {
-    top: -150px;
-    color: #93CD5A;
-    animation: slideRight ease 1.0s forwards 1.6s;
+  top: -150px;
+  color: #93CD5A;
+  animation: slideRight ease 1.0s forwards 1.6s;
 }
 .world{
-    top: -150px;
-    color: #39A4FE;
-    animation: slideLeft ease 1.0s forwards 1.6s;
+  top: -150px;
+  color: #39A4FE;
+  animation: slideLeft ease 1.0s forwards 1.6s;
 }
 
 
 @keyframes fundo {
-  0% {transform: translatey(0px); background-image: none;}
-  100% {transform: translatey(0px);opacity:1;background-image: url("//www.icegif.com/wp-content/uploads/earth-day-icegif-1.gif");}
+  0% {background-image: none;}
+  100% {opacity:1;background-image: url("//www.icegif.com/wp-content/uploads/earth-day-icegif-1.gif");}
 }
 @keyframes slideRight {
   0% {transform: translatex(-100px);}
