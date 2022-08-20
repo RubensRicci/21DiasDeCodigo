@@ -6,11 +6,29 @@
     <title>Botão Animado</title>
 </head>
 <body>
-    <label class="switch">
-        <div class="canaleta">
-            <input type="checkbox" name="btnSlide">
-            <span class="slider"></span>
+    <div class="card">
+        <div id="fogos" style="opacity:0">
+            <h1>3/21</h1>
         </div>
-    </label>
+        <label class="switch">
+            <div class="canaleta">
+                <input type="checkbox" name="btnSlide" id="btnSlide"  onclick="myFunction()">
+                <span class="slider"></span>
+            </div>
+        </label>
+
+    </div>
+    <script>
+        function myFunction() {
+          var checkBox = document.getElementById("btnSlide");
+          var fogos = document.getElementById("fogos");
+          if (checkBox.checked == true){
+            fogos.style.opacity = "1";
+          } else {
+            fogos.style.opacity = "0";
+          }
+        }
+    </script>
+        
 </body>
 </html>
