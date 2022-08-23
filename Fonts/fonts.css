@@ -1,0 +1,47 @@
+/*
+    Esse arquivo serve para que todas as fontes utilizadas fiquem em um único lugar.
+*/
+
+/*
+    Regra para utilizar essa fonte
+
+    font-family: 'Marmelad', sans-serif;
+*/
+@import url('https://fonts.googleapis.com/css2?family=Marmelad&display=swap');
+
+/*
+    Regra para utilizar essa fonte
+
+    font-family: 'Michroma', sans-serif;
+*/
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+
+/*
+    Regra para utilizar essa fonte
+
+    font-family: 'Righteous', cursive;
+*/
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+/*
+    Regra para utilizar essa fonte
+
+    font-family: 'Roboto', sans-serif;
+*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/*
+    Regra para utilizar essa fonte
+
+    font-family: 'VT323', monospace;
+*/
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+@font-face {
+    font-family: 'Digital';
+    src: url('/Fonts/ds_digital/DS-DIGI.TTF') format('truetype'),
+    url('/Fonts/ds_digital/DS-DIGIB.TTF') format('truetype'),
+    url('/Fonts/ds_digital/DS-DIGII.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

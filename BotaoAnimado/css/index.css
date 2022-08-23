@@ -1,3 +1,5 @@
+@import url(/Fonts/fonts.css);
+
 body{
     margin-top: 50px;
     align-items: center;
@@ -18,12 +20,13 @@ body{
 }
 #fogos{
     top: 20px;
-    width: 245px;
+    width: 292px;
     height: 250px;
     padding-top: 1px;
     margin: 20px auto;
-    background-size: 250px 245px;
+    background-size: 292px 250px;
     background-image: url('https://i.gifer.com/origin/61/61ecadae76f23a6860db8d78de93c322.gif');  
+    background-repeat: no-repeat;
     opacity: 1;
     font-size: 50px;
     font-family: 'Michroma', sans-serif;
