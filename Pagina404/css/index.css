@@ -1,0 +1,28 @@
+@import url(/Fonts/fonts.css);
+
+body{
+    margin: 0;
+    padding: 100px 0;
+    min-width: 100%;
+    min-height: 100%;
+    align-items: center;
+    background-color: #FFF;
+}
+.erro{
+    width: 627px;
+    height: 620px;
+    margin: auto;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-image: url(https://img.freepik.com/vetores-gratis/erro-404-com-pessoas-segurando-a-ilustracao-do-conceito-de-numeros_114360-7983.jpg);
+}
+.erro h1{
+    font-size: 70px;
+    font-weight: 400;
+    transform: rotate(5deg);
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+    background-color: #aaccffa1;
+    border-radius: 50PX;
+}
